@@ -8,20 +8,23 @@ Wappalyzer is commonly used in web development, competitor analysis, and penetra
 
 It's important to note that Wappalyzer is just a tool for technology profiling and doesn't perform in-depth security assessments. It's designed to give a high-level overview of the technologies used on a website. For thorough security assessments, additional tools and techniques are required.
 
+## Docker Pull from ghcr.io
 
-## To build it:
+```sh
+docker pull ghcr.io/erdemozgen/wap_api:sha256-682e0e08f89bc4fb3fd8d0b47851b6417eb49432f386eb2f93b826ed3fa43ca1.sig
 ```
+## To build it:
+```sh
 docker build -t webanalyzer .
 ```
 
 ## To run it:
-```
+```sh
 docker run -p 3000:3000 webanalyzer
 ```
 
 ## To use it:
-```
-
+```sh
 curl 'localhost:3000/extract?url=https://www.nsa.gov'
 ```
 
