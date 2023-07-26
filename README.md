@@ -1,6 +1,12 @@
 # Wappalyzer API
 
-This repository contains a dockerized and 'API-fied' version of [Wappalyzer](https://github.com/AliasIO/Wappalyzer). It aims to make it available through an API endpoint you can call from anywhere.
+This repository contains a dockerized and 'API-fied' version of [Wappalyzer](https://github.com/AliasIO/Wappalyzer). It aims to make it available through an API endpoint you can call from anywhere. Wappalyzer is a web browser extension and a technology profiler used to identify the technologies and software being used on a website. It provides insights into the various software frameworks, content management systems (CMS), programming languages, web servers, analytics tools, and other technologies that power a website. The tool is available as a browser extension for Chrome, Firefox, and other popular web browsers.
+
+When you visit a website with Wappalyzer installed in your browser, it examines the site's source code, server headers, and other relevant information to detect the presence of different technologies. It then generates a report or a popup indicating the technologies it has identified. This information can be useful for website owners, developers, and cybersecurity professionals to understand the technology stack a website is built upon.
+
+Wappalyzer is commonly used in web development, competitor analysis, and penetration testing. It allows developers to identify what technologies their competitors are using and helps security professionals discover potential vulnerabilities associated with specific software versions.
+
+It's important to note that Wappalyzer is just a tool for technology profiling and doesn't perform in-depth security assessments. It's designed to give a high-level overview of the technologies used on a website. For thorough security assessments, additional tools and techniques are required.
 
 
 ## To build it:
