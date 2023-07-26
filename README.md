@@ -1,4 +1,4 @@
-  <p align="center"><a href="https://github.com/ErdemOzgen/WAP_API">WAP_API</a> Wappalyzer API Docker Container</p>
+  <p align="center"><a href="https://github.com/ErdemOzgen/WAP_API">WAP_API</a> Wappalyzer API with Docker Container</p>
     <p align="center">
     <a href="https://github.com/erdemozgen/WAP_API/actions/workflows/build-and-push.yaml" alt="Publish Docker Image">
           <img src="https://img.shields.io/github/actions/workflow/status/erdemozgen/wap_api/build-and-push.yaml" /></a>
