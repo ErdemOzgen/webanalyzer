@@ -9,7 +9,7 @@
     <a href="https://hub.docker.com/r/erdemozgen/wap_api/" alt="Docker Pulls">
           <img src="https://img.shields.io/docker/pulls/erdemozgen/wap_api" /></a>
   </p>
-# Wappalyzer API
+# Wappalyzer API **webanalyzer**
 
 This repository contains a dockerized and 'API-fied' version of [Wappalyzer](https://github.com/AliasIO/Wappalyzer). It aims to make it available through an API endpoint you can call from anywhere. Wappalyzer is a web browser extension and a technology profiler used to identify the technologies and software being used on a website. It provides insights into the various software frameworks, content management systems (CMS), programming languages, web servers, analytics tools, and other technologies that power a website. The tool is available as a browser extension for Chrome, Firefox, and other popular web browsers.
 
@@ -22,13 +22,13 @@ It's important to note that Wappalyzer is just a tool for technology profiling a
 ## Docker Pull from ghcr.io
 
 ```sh
-docker pull ghcr.io/erdemozgen/wap_api:sha256-682e0e08f89bc4fb3fd8d0b47851b6417eb49432f386eb2f93b826ed3fa43ca1.sig
+docker pull ghcr.io/erdemozgen/webanalyzer
 ```
 
 ## Docker Pull from Default Registry
 
 ```sh
-docker pull erdemozgen/wap_api
+docker pull erdemozgen/webanalyzer
 ```
 ## To build it:
 ```sh
